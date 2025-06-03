@@ -297,7 +297,8 @@ if user_input:
 
      # Store possible user info
     user_info = store_user_info(user_input,history_prompt,store_user_info_prompt,client)
-    st.session_state.user_data.update(user_info)
+    if user_info:
+        st.session_state.user_data.update(user_info)
     # st.rerun()
 
     # Detect intent
