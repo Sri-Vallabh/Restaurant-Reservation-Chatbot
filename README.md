@@ -29,7 +29,7 @@ This is a conversational restaurant reservation assistant built using **LLMs (ll
 ### 🧩 Installation
 
 ```bash
-git clone https://github.com/Sri-Vallabh/LLM-based-restaurant-reservation-chatbot.git
+git clone https://github.com/Sri-Vallabh/Restaurant-Reservation-Chatbot.git
 cd restaurant-reservation-assistant
 pip install -r requirements.txt
 ```
