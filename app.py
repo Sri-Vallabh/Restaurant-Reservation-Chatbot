@@ -12,10 +12,12 @@ import hashlib
 import inspect
 from tools import *
 from var import SCHEMA_DESCRIPTIONS, SchemaVectorDB, FullVectorDB
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Set your Groq API key
-GROQ_API_KEY = "Your API Key Here"
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 # Initialize Groq's OpenAI-compatible client
 client = OpenAI(
