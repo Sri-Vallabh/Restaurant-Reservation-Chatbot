@@ -364,6 +364,10 @@ By handling these cases gracefully, the assistant ensures that users have a seam
 ├── tools.py
 ├── var.py
 ├── requirements.txt
+├── Business Strategy Presentation/
+│   ├── app.js
+│   ├── index.html
+│   ├── style.js
 ├── prompts/
 │   ├── determine_intent.txt
 │   ├── generate_reservation_conversation.txt
